@@ -374,7 +374,7 @@ function speakInstruction(text) {
 // liten knapp i hovedmenyen for å endre denne.
 // Bakgrunnsmusikken er deaktivert som standard. Brukeren kan slå den
 // på via knappen i hovedmenyen dersom ønskelig.
-let musicEnabled = false;
+let musicEnabled = true;
 
 /*
  * Vis et skjermbilde for å velge hvor mange runder man vil spille i et
@@ -517,7 +517,7 @@ function renderHome() {
     <p style="text-align:center; margin-bottom: 10px;">Velg et spill for å øve på bokstavene.</p>
     <div class="game-grid">
       <div class="tile" id="tile-pronunciation">
-        <div class="tile-icon">🔊</div>
+        <div class="tile-icon">🔠</div>
         <div>Bokstavkort</div>
       </div>
       <div class="tile" id="tile-matching">
